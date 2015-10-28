@@ -51,5 +51,5 @@ button[accordion]:hover {
   transition: max-height 400ms ease-out; }
 
 .show {
-  max-height: 9000px;
+  max-height: 9999px;
   transition: max-height 1.5s ease-in-out 400ms; }

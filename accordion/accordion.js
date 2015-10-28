@@ -29,7 +29,8 @@
       if (cachedContent[providerName]) {
         deferred.resolve();
       } else {
-        config.customData[providerName].provider()
+        var fnToBeCalled = Q.fcall(config.customData[providerName].provider);
+        return fnToBeCalled
           .then(function(resolved) {
             if (config.customData[providerName].cache === true) {
               cachedContent[providerName] = true;

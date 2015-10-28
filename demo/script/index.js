@@ -13,6 +13,10 @@ function contentProvider1() {
   return deferred.promise;
 }
 
+function contentProvider2() {
+  return ["fn item1", "fn item2", "fn item3", "fn item4", "fn item5"];
+}
+
 var accordion = Accordion(".accordion-group",
   {
     closeOthers: true,
@@ -20,6 +24,10 @@ var accordion = Accordion(".accordion-group",
       contentProvider1: {
         provider: contentProvider1,
         cache: true
+      },
+      contentProvider2: {
+        provider: contentProvider2,
+        cache: false
       }
     }
   });
