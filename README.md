@@ -72,4 +72,4 @@ Create a list combination like :
 
   Please report bugs, request for new useful features.
 
-  Quick demo on CodePen: http://codepen.io/erdysson/pen/ZbxyyP
+  Quick demo on CodePen: http://codepen.io/erdysson/pen/XmqBWB
