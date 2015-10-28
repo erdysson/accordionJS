@@ -55,12 +55,16 @@ Create a list combination like :
     var accordion = Accordion(".accordion-group",
       {
         closeOthers: true,
-        customData: {
-          contentProvider1: {
-            provider: contentProvider1,
-            cache: true
-          }
-        }
+            customData: {
+              contentProvider1: {
+                provider: contentProvider1,
+                cache: true
+              },
+              contentProvider2: {
+                provider: contentProvider2,
+                cache: false
+              }
+            }
       });
     accordion.$initialize();
     
