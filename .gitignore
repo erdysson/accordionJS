@@ -1,0 +1,14 @@
+# User Specific assets
+
+backup.txt
+*node_modules
+
+# Output
+dist/
+
+# WebStorm
+.idea
+.idea_modules
+*.iml
+*.eml
+*.xml
